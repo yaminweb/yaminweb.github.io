@@ -21,7 +21,7 @@
 }
 body{font-family:'DM Sans',sans-serif;background:var(--navy);color:#fff;overflow-x:hidden}
 h1,h2,h3,h4,h5{font-family:'Syne',sans-serif}
-
+ 
 /* NAV */
 nav{background:rgba(10,15,30,0.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--gold-border);padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:70px;position:sticky;top:0;z-index:200}
 .logo-area{display:flex;align-items:center;gap:10px;cursor:pointer}
@@ -35,11 +35,11 @@ nav{background:rgba(10,15,30,0.95);backdrop-filter:blur(12px);border-bottom:1px 
 .nav-cta:hover{background:var(--gold2)}
 .nav-hamburger{display:none;background:none;border:none;cursor:pointer;flex-direction:column;gap:5px}
 .nav-hamburger span{display:block;width:22px;height:2px;background:#fff;transition:all 0.3s}
-
+ 
 /* PAGES */
 .page{display:none}
 .page.active{display:block}
-
+ 
 /* HERO */
 .hero{background:var(--navy);padding:110px 2rem 90px;text-align:center;position:relative;overflow:hidden;border-bottom:1px solid var(--gold-border)}
 .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 60% 0%,rgba(24,95,165,0.18) 0%,transparent 65%),radial-gradient(ellipse at 10% 80%,rgba(201,150,12,0.1) 0%,transparent 55%);pointer-events:none}
@@ -57,14 +57,14 @@ nav{background:rgba(10,15,30,0.95);backdrop-filter:blur(12px);border-bottom:1px 
 .hstat:last-child{border-right:none}
 .hstat-num{font-size:34px;font-weight:800;color:var(--gold);font-family:'Syne',sans-serif}
 .hstat-label{font-size:12px;color:rgba(255,255,255,0.4);margin-top:4px;text-transform:uppercase;letter-spacing:0.5px}
-
+ 
 /* SECTIONS */
 .section{padding:80px 2rem;max-width:1100px;margin:0 auto}
 .bg-alt{background:var(--navy2)}
 .stag{color:var(--gold);font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;font-family:'Syne',sans-serif}
 .stitle{font-size:34px;font-weight:800;letter-spacing:-0.5px;margin-bottom:14px;color:#fff}
 .ssub{font-size:15px;color:var(--text);max-width:480px;line-height:1.75;margin-bottom:44px}
-
+ 
 /* SERVICES GRID */
 .srv-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
 .srv-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:28px;transition:border-color 0.25s,transform 0.25s}
@@ -73,14 +73,14 @@ nav{background:rgba(10,15,30,0.95);backdrop-filter:blur(12px);border-bottom:1px 
 .srv-icon svg{width:22px;height:22px;stroke:var(--gold);fill:none;stroke-width:2}
 .srv-card h3{font-size:16px;font-weight:700;margin-bottom:9px;font-family:'Syne',sans-serif}
 .srv-card p{font-size:13px;color:rgba(255,255,255,0.5);line-height:1.7}
-
+ 
 /* WHY */
 .why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
 .why-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:22px}
 .why-n{font-size:28px;font-weight:800;color:rgba(201,150,12,0.25);font-family:'Syne',sans-serif;margin-bottom:6px}
 .why-card h4{font-size:14px;font-weight:700;margin-bottom:5px;font-family:'Syne',sans-serif}
 .why-card p{font-size:12px;color:rgba(255,255,255,0.4);line-height:1.6}
-
+ 
 /* PORTFOLIO */
 .port-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px}
 .port-card{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;transition:border-color 0.25s,transform 0.25s}
@@ -94,7 +94,7 @@ nav{background:rgba(10,15,30,0.95);backdrop-filter:blur(12px);border-bottom:1px 
 .port-body h3{font-size:15px;font-weight:700;margin-bottom:5px;font-family:'Syne',sans-serif}
 .port-body p{font-size:12px;color:rgba(255,255,255,0.45);line-height:1.6}
 .port-badge{position:absolute;top:10px;right:10px;background:rgba(10,15,30,0.85);border:1px solid var(--gold-border);color:var(--gold);font-size:10px;font-weight:600;padding:3px 8px;border-radius:4px;font-family:'Syne',sans-serif}
-
+ 
 /* TESTIMONIALS */
 .testi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
 .testi-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:26px}
@@ -104,14 +104,14 @@ nav{background:rgba(10,15,30,0.95);backdrop-filter:blur(12px);border-bottom:1px 
 .testi-av{width:38px;height:38px;border-radius:50%;background:var(--gold);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:var(--navy);font-family:'Syne',sans-serif;flex-shrink:0}
 .testi-name{font-size:13px;font-weight:600;font-family:'Syne',sans-serif}
 .testi-role{font-size:11px;color:rgba(255,255,255,0.35)}
-
+ 
 /* CTA STRIP */
 .cta-strip{background:linear-gradient(135deg,var(--gold) 0%,#a07208 100%);padding:60px 2rem;text-align:center}
 .cta-strip h2{font-size:30px;font-weight:800;color:var(--navy);margin-bottom:10px}
 .cta-strip p{font-size:15px;color:rgba(10,15,30,0.65);margin-bottom:26px}
 .btn-dark{background:var(--navy);color:#fff;padding:13px 30px;border-radius:7px;font-size:14px;font-weight:700;cursor:pointer;border:none;transition:background 0.2s;font-family:'Syne',sans-serif}
 .btn-dark:hover{background:#1a2540}
-
+ 
 /* FOOTER */
 footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold-border)}
 .footer-inner{max-width:1100px;margin:0 auto}
@@ -121,14 +121,14 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
 .footer-col a{display:block;font-size:13px;color:rgba(255,255,255,0.4);text-decoration:none;margin-bottom:7px;cursor:pointer;transition:color 0.2s}
 .footer-col a:hover{color:var(--gold)}
 .footer-bottom{border-top:1px solid rgba(255,255,255,0.05);padding-top:18px;display:flex;justify-content:space-between;align-items:center;font-size:12px;color:rgba(255,255,255,0.25)}
-
+ 
 /* PAGE HERO */
 .page-hero{background:var(--navy);padding:70px 2rem 50px;border-bottom:1px solid var(--gold-border);position:relative;overflow:hidden}
 .page-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 80% 50%,rgba(24,95,165,0.12) 0%,transparent 60%);pointer-events:none}
 .page-hero-inner{max-width:1100px;margin:0 auto}
 .page-hero h1{font-size:40px;font-weight:800;letter-spacing:-0.5px;margin-bottom:10px;color:#fff}
 .page-hero p{font-size:15px;color:rgba(255,255,255,0.5);max-width:480px;line-height:1.7}
-
+ 
 /* PRICING */
 .pricing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px;max-width:1100px;margin:0 auto;padding:0 2rem 80px}
 .price-card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:30px;position:relative;transition:transform 0.2s}
@@ -148,7 +148,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
 .price-btn.gold:hover{background:var(--gold2)}
 .price-btn.outline{background:transparent;color:#fff;border:1px solid rgba(255,255,255,0.18)}
 .price-btn.outline:hover{border-color:var(--gold);color:var(--gold)}
-
+ 
 /* SERVICES DETAIL */
 .svc-detail{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:36px;margin-bottom:20px;display:grid;grid-template-columns:80px 1fr;gap:32px;align-items:start}
 .svc-detail-icon{width:60px;height:60px;background:rgba(201,150,12,0.12);border-radius:12px;display:flex;align-items:center;justify-content:center}
@@ -157,7 +157,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
 .svc-detail p{font-size:14px;color:rgba(255,255,255,0.5);line-height:1.75;margin-bottom:14px}
 .svc-features{display:flex;flex-wrap:wrap;gap:7px}
 .feat-tag{background:rgba(201,150,12,0.08);color:var(--gold);border:1px solid rgba(201,150,12,0.2);padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600;font-family:'Syne',sans-serif}
-
+ 
 /* ABOUT */
 .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;max-width:1100px;margin:0 auto;padding:80px 2rem}
 .about-visual{background:var(--card);border:1px solid rgba(180,150,40,0.18);border-radius:16px;padding:36px;text-align:center}
@@ -175,7 +175,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
 .step-num{width:44px;height:44px;border-radius:50%;background:var(--gold);color:var(--navy);font-weight:800;font-size:16px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-family:'Syne',sans-serif}
 .step-body h4{font-size:16px;font-weight:700;margin-bottom:5px;color:#fff;font-family:'Syne',sans-serif}
 .step-body p{font-size:13px;color:rgba(255,255,255,0.45);line-height:1.7}
-
+ 
 /* CONTACT */
 .contact-wrap{max-width:1100px;margin:0 auto;padding:80px 2rem;display:grid;grid-template-columns:1fr 1.4fr;gap:56px;align-items:start}
 .contact-info h2{font-size:32px;font-weight:800;margin-bottom:14px;color:#fff}
@@ -195,7 +195,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
 .form-group select{appearance:none;cursor:pointer}
 .form-group textarea{resize:vertical;min-height:100px}
 .form-success{display:none;background:rgba(201,150,12,0.1);border:1px solid var(--gold-border);border-radius:8px;padding:16px;text-align:center;color:var(--gold);font-size:14px;margin-top:12px;font-family:'Syne',sans-serif}
-
+ 
 /* ADMIN */
 .admin-wrap{max-width:700px;margin:0 auto;padding:80px 2rem}
 .admin-login{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:40px;text-align:center}
@@ -215,7 +215,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
 .admin-form-group input,.admin-form-group select,.admin-form-group textarea{width:100%;background:var(--navy);border:1px solid rgba(255,255,255,0.09);border-radius:7px;padding:10px 13px;font-size:13px;color:#fff;font-family:'DM Sans',sans-serif;transition:border-color 0.2s}
 .admin-form-group input:focus,.admin-form-group select:focus,.admin-form-group textarea:focus{outline:none;border-color:var(--gold)}
 .admin-form-group textarea{resize:vertical;min-height:80px}
-
+ 
 /* MOBILE */
 @media(max-width:768px){
   .nav-links{display:none;position:absolute;top:70px;left:0;right:0;background:rgba(10,15,30,0.98);flex-direction:column;padding:20px 2rem;gap:0;border-bottom:1px solid var(--gold-border)}
@@ -236,7 +236,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
 </style>
 </head>
 <body>
-
+ 
 <nav>
   <div class="logo-area" onclick="showPage('home',null)">
     <img src="https://yaminahmedsyl43-spec.github.io/Bazro/logo.png" onerror="this.style.display='none';document.getElementById('logo-fallback').style.display='flex'" alt="YaminWeb Logo"/>
@@ -257,7 +257,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
     <span></span><span></span><span></span>
   </button>
 </nav>
-
+ 
 <!-- ============ HOME ============ -->
 <div id="page-home" class="page active">
   <div class="hero">
@@ -274,7 +274,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
       <div class="hstat"><div class="hstat-num">5★</div><div class="hstat-label">Average rating</div></div>
     </div>
   </div>
-
+ 
   <div class="bg-alt">
     <div class="section">
       <div class="stag">What we do</div>
@@ -299,7 +299,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
       </div>
     </div>
   </div>
-
+ 
   <div class="section">
     <div class="stag">Why YaminWeb</div>
     <div class="stitle">Why choose us</div>
@@ -310,7 +310,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
       <div class="why-card"><div class="why-n">04</div><h4>UK-based support</h4><p>Right here in the UK — responsive, reliable, easy to reach.</p></div>
     </div>
   </div>
-
+ 
   <div class="bg-alt">
     <div class="section">
       <div class="stag">Testimonials</div>
@@ -334,13 +334,13 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
       </div>
     </div>
   </div>
-
+ 
   <div class="cta-strip">
     <h2>Ready to grow your business online?</h2>
     <p>Get a free consultation and quote — no obligation, no jargon.</p>
     <button class="btn-dark" onclick="showPage('contact',null)">Get your free quote today</button>
   </div>
-
+ 
   <footer>
     <div class="footer-inner">
       <div class="footer-top">
@@ -368,7 +368,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
     </div>
   </footer>
 </div>
-
+ 
 <!-- ============ SERVICES ============ -->
 <div id="page-services" class="page">
   <div class="page-hero">
@@ -378,7 +378,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
       <p>Everything your small business needs to thrive online — custom built and delivered fast.</p>
     </div>
   </div>
-
+ 
   <div class="bg-alt">
     <div class="section">
       <div class="svc-detail">
@@ -413,7 +413,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
       </div>
     </div>
   </div>
-
+ 
   <div style="max-width:1100px;margin:0 auto;padding:60px 2rem 0">
     <div class="stag">Pricing</div>
     <div class="stitle" style="margin-bottom:44px">Transparent pricing</div>
@@ -468,7 +468,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
       <button class="price-btn outline" onclick="showPage('contact',null)">Get a custom quote</button>
     </div>
   </div>
-
+ 
   <div class="cta-strip">
     <h2>Not sure which package suits you?</h2>
     <p>Get in touch and we'll recommend the best option for your business and budget.</p>
@@ -476,7 +476,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
   </div>
   <footer><div class="footer-inner"><div class="footer-bottom" style="border-top:none;padding-top:0"><span>© 2026 YaminWeb. All rights reserved.</span><span style="cursor:pointer" onclick="showPage('home',null)">Back to home</span></div></div></footer>
 </div>
-
+ 
 <!-- ============ PORTFOLIO ============ -->
 <div id="page-portfolio" class="page">
   <div class="page-hero">
@@ -486,11 +486,11 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
       <p>Real projects built for real businesses. Browse our work below — contact us to get something similar built for you.</p>
     </div>
   </div>
-
+ 
   <div class="bg-alt">
     <div class="section">
       <div id="portfolio-grid" class="port-grid">
-
+ 
         <!-- Bazro EPOS Mobile -->
         <div class="port-card">
           <div class="port-preview" style="background:#1a1a2e">
@@ -512,7 +512,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
             <p>Full-featured EPOS system for Bazro retail — barcode scanning, inventory management, end-of-day reporting, and PDF invoices. Works on mobile.</p>
           </div>
         </div>
-
+ 
         <!-- Bazro EPOS Laptop -->
         <div class="port-card">
           <div class="port-preview" style="background:#0d1f3c">
@@ -532,7 +532,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
             <p>Desktop-optimised version of the Bazro EPOS system. Larger screen layout with enhanced dashboard views and multi-location support.</p>
           </div>
         </div>
-
+ 
         <!-- eFootball 2026 -->
         <div class="port-card">
           <div class="port-preview" style="background:linear-gradient(135deg,#0a1628,#1a3a6a)">
@@ -548,7 +548,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
             <p>An interactive football team management and tracking web application with live stats and team management features.</p>
           </div>
         </div>
-
+ 
         <!-- Master Finance -->
         <div class="port-card">
           <div class="port-preview" style="background:linear-gradient(135deg,#0a2a0a,#1a4a1a)">
@@ -564,7 +564,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
             <p>Personal and business finance management app with income/expense tracking, reports, and visual summaries.</p>
           </div>
         </div>
-
+ 
         <!-- WorkSphere -->
         <div class="port-card">
           <div class="port-preview" style="background:linear-gradient(135deg,#1a0a2e,#2e1a5a)">
@@ -580,7 +580,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
             <p>A comprehensive productivity and team management platform with task management, scheduling, and team collaboration tools.</p>
           </div>
         </div>
-
+ 
         <!-- Off Day Tracker -->
         <div class="port-card">
           <div class="port-preview" style="background:linear-gradient(135deg,#1a1200,#3a2800)">
@@ -596,7 +596,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
             <p>Staff leave and day-off management system for small businesses. Track holidays, absences, and rotas in one place.</p>
           </div>
         </div>
-
+ 
         <!-- Daily Sales Tracker -->
         <div class="port-card">
           <div class="port-preview" style="background:linear-gradient(135deg,#001a1a,#003a3a)">
@@ -612,7 +612,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
             <p>Daily sales recording and reporting tool for small businesses. Track revenue, expenses, and profitability day by day.</p>
           </div>
         </div>
-
+ 
         <!-- Abdul Jabbar Academy -->
         <div class="port-card">
           <div class="port-preview" style="background:linear-gradient(135deg,#00111a,#00243a)">
@@ -628,7 +628,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
             <p>Full website for an educational academy with course listings, registration forms, and staff/contact information.</p>
           </div>
         </div>
-
+ 
         <!-- Nawaab Kebab -->
         <div class="port-card">
           <div class="port-preview" style="background:linear-gradient(135deg,#1a0500,#3a0e00)">
@@ -644,7 +644,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
             <p>Restaurant website with online menu plus a custom end-of-day reporting and cashflow management system for the business.</p>
           </div>
         </div>
-
+ 
         <!-- MailForge -->
         <div class="port-card">
           <div class="port-preview" style="background:linear-gradient(135deg,#0f0f1a,#1a1a3a)">
@@ -660,13 +660,13 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
             <p>A professional email campaign and marketing platform with template builder, audience management, and send tracking.</p>
           </div>
         </div>
-
+ 
       </div>
       <!-- Dynamic admin-added portfolios appear here -->
       <div id="extra-portfolio-grid" class="port-grid" style="margin-top:22px"></div>
     </div>
   </div>
-
+ 
   <div class="cta-strip">
     <h2>Want results like these?</h2>
     <p>Let's talk about your project and what we can build for you.</p>
@@ -674,7 +674,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
   </div>
   <footer><div class="footer-inner"><div class="footer-bottom" style="border-top:none;padding-top:0"><span>© 2026 YaminWeb.</span><span style="cursor:pointer" onclick="showPage('home',null)">Back to home</span></div></div></footer>
 </div>
-
+ 
 <!-- ============ ABOUT ============ -->
 <div id="page-about" class="page">
   <div class="page-hero">
@@ -707,7 +707,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
         <button class="btn-gold" onclick="showPage('contact',null)" style="margin-top:10px">Work with us</button>
       </div>
     </div>
-
+ 
     <div class="process-steps">
       <div style="margin-bottom:28px">
         <div class="stag">How we work</div>
@@ -720,7 +720,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
       <div class="step"><div class="step-num">5</div><div class="step-body"><h4>Launch & support</h4><p>We go live and provide post-launch support so you can hit the ground running with confidence.</p></div></div>
     </div>
   </div>
-
+ 
   <div class="cta-strip">
     <h2>Let's build something great together</h2>
     <p>Get in touch today — your free consultation is waiting.</p>
@@ -728,7 +728,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
   </div>
   <footer><div class="footer-inner"><div class="footer-bottom" style="border-top:none;padding-top:0"><span>© 2026 YaminWeb.</span><span style="cursor:pointer" onclick="showPage('home',null)">Back to home</span></div></div></footer>
 </div>
-
+ 
 <!-- ============ CONTACT ============ -->
 <div id="page-contact" class="page">
   <div class="page-hero">
@@ -743,21 +743,21 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
       <div class="contact-info">
         <h2>We'd love to hear from you</h2>
         <p>Whether you need a brand new website, a custom EPOS system, or just advice on improving your online presence — we're here to help.</p>
-
+ 
         <a href="https://wa.me/447359987001" target="_blank" class="contact-method" style="color:inherit">
           <div class="contact-method-icon">
             <svg viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
           </div>
           <div><div class="contact-method-label">WhatsApp</div><div class="contact-method-value">+44 7359 987001</div></div>
         </a>
-
+ 
         <a href="mailto:contact.yaminweb@gmail.com" class="contact-method" style="color:inherit">
           <div class="contact-method-icon">
             <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
           </div>
           <div><div class="contact-method-label">Email</div><div class="contact-method-value">contact.yaminweb@gmail.com</div></div>
         </a>
-
+ 
         <div class="contact-method">
           <div class="contact-method-icon">
             <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
@@ -765,7 +765,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
           <div><div class="contact-method-label">Response time</div><div class="contact-method-value">Within 24 hours</div></div>
         </div>
       </div>
-
+ 
       <div class="contact-form">
         <div style="font-size:17px;font-weight:700;color:#fff;margin-bottom:22px;font-family:'Syne',sans-serif">Send us a message</div>
         <div class="form-row">
@@ -800,7 +800,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
   </div>
   <footer><div class="footer-inner"><div class="footer-bottom" style="border-top:none;padding-top:0"><span>© 2026 YaminWeb. All rights reserved.</span><span style="cursor:pointer" onclick="showPage('home',null)">Back to home</span></div></div></footer>
 </div>
-
+ 
 <!-- ============ ADMIN ============ -->
 <div id="page-admin" class="page">
   <div class="page-hero">
@@ -824,7 +824,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
         <div id="admin-login-error" style="color:#ff6060;font-size:12px;margin-bottom:12px;display:none">Incorrect password. Try again.</div>
         <button class="btn-gold" style="width:100%" onclick="checkAdminLogin()">Login</button>
       </div>
-
+ 
       <!-- PANEL -->
       <div class="admin-panel" id="admin-panel-box">
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
@@ -834,7 +834,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
           </div>
           <button class="price-btn outline" style="width:auto;padding:8px 16px;font-size:12px" onclick="adminLogout()">Logout</button>
         </div>
-
+ 
         <div style="background:var(--card);border:1px solid var(--border);border-radius:12px;padding:28px;margin-bottom:24px">
           <div style="font-size:15px;font-weight:700;color:#fff;font-family:'Syne',sans-serif;margin-bottom:18px">Add new portfolio item</div>
           <div class="admin-form-group"><label>Project name</label><input type="text" id="ap-name" placeholder="e.g. My Client Website"/></div>
@@ -857,7 +857,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
           <div class="admin-form-group"><label>Accent colour (hex)</label><input type="text" id="ap-accent" placeholder="#C9960C" value="#C9960C"/></div>
           <button class="btn-gold" onclick="addPortfolioItem()">Add to portfolio</button>
         </div>
-
+ 
         <div style="background:var(--card);border:1px solid var(--border);border-radius:12px;padding:28px">
           <div style="font-size:15px;font-weight:700;color:#fff;font-family:'Syne',sans-serif;margin-bottom:14px">Your added items</div>
           <ul class="portfolio-list" id="admin-portfolio-list">
@@ -869,7 +869,7 @@ footer{background:#060b16;padding:44px 2rem 22px;border-top:1px solid var(--gold
   </div>
   <footer><div class="footer-inner"><div class="footer-bottom" style="border-top:none;padding-top:0"><span>© 2026 YaminWeb.</span><span style="cursor:pointer;color:rgba(255,255,255,0.2)" onclick="showPage('home',null)">Back to home</span></div></div></footer>
 </div>
-
+ 
 <script>
 // ---- NAV ----
 function showPage(id, linkEl) {
@@ -885,7 +885,7 @@ function showPage(id, linkEl) {
   document.getElementById('navLinks').classList.remove('open');
   window.scrollTo && window.scrollTo({top:0,behavior:'smooth'});
 }
-
+ 
 // ---- CONTACT FORM ----
 function submitContactForm() {
   const name = document.getElementById('cf-fname').value;
@@ -901,11 +901,11 @@ function submitContactForm() {
   window.open(`mailto:contact.yaminweb@gmail.com?subject=YaminWeb Enquiry from ${encodeURIComponent(name)}&body=${body}`, '_blank');
   document.getElementById('form-success').style.display = 'block';
 }
-
+ 
 // ---- ADMIN ----
 const ADMIN_PW = 'Yamin@83';
 let adminItems = JSON.parse(localStorage.getItem('yw_portfolio') || '[]');
-
+ 
 function checkAdminLogin() {
   const pw = document.getElementById('admin-pw').value;
   if (pw === ADMIN_PW) {
@@ -917,14 +917,14 @@ function checkAdminLogin() {
     document.getElementById('admin-login-error').style.display = 'block';
   }
 }
-
+ 
 function adminLogout() {
   document.getElementById('admin-login-box').style.display = 'block';
   document.getElementById('admin-panel-box').style.display = 'none';
   document.getElementById('admin-pw').value = '';
   document.getElementById('admin-login-error').style.display = 'none';
 }
-
+ 
 function addPortfolioItem() {
   const name = document.getElementById('ap-name').value.trim();
   const desc = document.getElementById('ap-desc').value.trim();
@@ -944,14 +944,14 @@ function addPortfolioItem() {
   document.getElementById('ap-name').value = '';
   document.getElementById('ap-desc').value = '';
 }
-
+ 
 function deletePortfolioItem(id) {
   adminItems = adminItems.filter(i => i.id !== id);
   localStorage.setItem('yw_portfolio', JSON.stringify(adminItems));
   renderAdminList();
   renderExtraPortfolio();
 }
-
+ 
 function renderAdminList() {
   const ul = document.getElementById('admin-portfolio-list');
   if (!adminItems.length) {
@@ -965,7 +965,7 @@ function renderAdminList() {
     </li>
   `).join('');
 }
-
+ 
 function renderExtraPortfolio() {
   const grid = document.getElementById('extra-portfolio-grid');
   if (!adminItems.length) { grid.innerHTML = ''; return; }
@@ -985,10 +985,10 @@ function renderExtraPortfolio() {
     </div>
   `).join('');
 }
-
+ 
 // Render extra portfolio on load
 renderExtraPortfolio();
-
+ 
 // Secret admin access: click logo 5 times
 let logoClicks = 0, logoTimer;
 document.querySelector('.logo-area').addEventListener('click', function(e){
